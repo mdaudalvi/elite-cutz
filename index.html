@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Cutz — Premium Barbershop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="header">
+  <div class="nav-wrap">
+    <a href="#home" class="logo">ELITE <span>CUTZ</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#barbers">Barbers</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#booking" class="btn btn-outline nav-cta">Book Now</a>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="https://images.pexels.com/photos/25797567/pexels-photo-25797567.jpeg?cs=srgb&dl=pexels-marcusl-25797567.jpg&fm=jpg" alt="Black panther face close-up">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <p class="eyebrow">Palma-style precision · Est. 2015</p>
+    <h1>SHARP LOOKS.<br>NO SHORTCUTS.</h1>
+    <p class="hero-sub">Elite Cutz is a modern barbershop built around one idea: every client leaves looking better than they walked in. Classic cuts, sharp fades, hot towel shaves.</p>
+    <div class="hero-actions">
+      <a href="#booking" class="btn btn-primary">Book Your Appointment</a>
+      <a href="#services" class="btn btn-ghost">View Services</a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ================= MARQUEE STRIP ================= -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>FADES</span><span>·</span><span>BEARD SCULPTING</span><span>·</span><span>HOT TOWEL SHAVES</span><span>·</span><span>KIDS CUTS</span><span>·</span><span>HAIR TATTOOS</span><span>·</span>
+    <span>FADES</span><span>·</span><span>BEARD SCULPTING</span><span>·</span><span>HOT TOWEL SHAVES</span><span>·</span><span>KIDS CUTS</span><span>·</span><span>HAIR TATTOOS</span><span>·</span>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="about-media">
+    <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=900&q=80" alt="Barber tools and grooming accessories">
+    <div class="about-badge">
+      <strong>10+</strong>
+      <span>Years cutting hair in the city</span>
+    </div>
+  </div>
+  <div class="about-copy">
+    <p class="eyebrow">The Shop</p>
+    <h2 class="section-title">Where the chair is the whole story</h2>
+    <div class="stripe-rule"></div>
+    <p>Elite Cutz opened its doors to bring old-school barbering technique back into a modern, no-nonsense space. No gimmicks — just trained hands, sharp tools, and barbers who take their time.</p>
+    <p>Every chair is manned by a barber who apprenticed for years before touching a paying client. We keep the shop small on purpose: fewer clients, more attention, better cuts.</p>
+    <ul class="about-list">
+      <li>Licensed master barbers only</li>
+      <li>Premium products, no upsell pressure</li>
+      <li>Walk-ins welcome, appointments preferred</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <p class="eyebrow center">What We Do</p>
+  <h2 class="section-title center">Services & Pricing</h2>
+  <div class="stripe-rule center"></div>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-top">
+        <h3>Classic Haircut</h3>
+        <span class="price">$28</span>
+      </div>
+      <p>Scissor and clipper cut, tailored to your face shape. Finished with a clean neckline and style.</p>
+      <span class="duration">35 min</span>
+    </div>
+
+    <div class="service-card featured">
+      <span class="tag">Most Booked</span>
+      <div class="service-top">
+        <h3>Skin Fade + Beard</h3>
+        <span class="price">$42</span>
+      </div>
+      <p>Precision skin fade paired with a full beard sculpt, line-up, and hot towel finish.</p>
+      <span class="duration">50 min</span>
+    </div>
+
+    <div class="service-card">
+      <div class="service-top">
+        <h3>Hot Towel Shave</h3>
+        <span class="price">$30</span>
+      </div>
+      <p>Traditional straight-razor shave with hot towel prep and aftershave balm.</p>
+      <span class="duration">30 min</span>
+    </div>
+
+    <div class="service-card">
+      <div class="service-top">
+        <h3>Beard Sculpting</h3>
+        <span class="price">$18</span>
+      </div>
+      <p>Shape, trim, and define your beard line with precision detailing.</p>
+      <span class="duration">20 min</span>
+    </div>
+
+    <div class="service-card">
+      <div class="service-top">
+        <h3>Kids Cut (12 & under)</h3>
+        <span class="price">$20</span>
+      </div>
+      <p>A relaxed, patient cut for younger clients — same sharp result.</p>
+      <span class="duration">25 min</span>
+    </div>
+
+    <div class="service-card">
+      <div class="service-top">
+        <h3>Hair Tattoo / Design</h3>
+        <span class="price">$15+</span>
+      </div>
+      <p>Custom razor-etched designs and part lines added to any cut.</p>
+      <span class="duration">15 min</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BARBERS ================= -->
+<section class="barbers" id="barbers">
+  <p class="eyebrow center">Meet The Team</p>
+  <h2 class="section-title center">Our Barbers</h2>
+  <div class="stripe-rule center"></div>
+
+  <div class="barbers-grid">
+    <div class="barber-card">
+      <div class="barber-photo"><img src="https://picsum.photos/id/1005/500/600" alt="Barber portrait"></div>
+      <h3>Marcus Reed</h3>
+      <span class="role">Founder · Master Barber</span>
+      <p>12 years behind the chair. Specializes in fades and classic gentleman cuts.</p>
+    </div>
+    <div class="barber-card">
+      <div class="barber-photo"><img src="https://picsum.photos/id/1012/500/600" alt="Barber portrait"></div>
+      <h3>Diego Alvarez</h3>
+      <span class="role">Senior Barber</span>
+      <p>Straight-razor specialist known for the shop's hot towel shave experience.</p>
+    </div>
+    <div class="barber-card">
+      <div class="barber-photo"><img src="https://picsum.photos/id/1027/500/600" alt="Barber portrait"></div>
+      <h3>Jayden Cole</h3>
+      <span class="role">Barber · Hair Artist</span>
+      <p>The go-to for hair tattoos, sharp designs, and modern textured crops.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery" id="gallery">
+  <p class="eyebrow center">Fresh Cuts</p>
+  <h2 class="section-title center">From The Chair</h2>
+  <div class="stripe-rule center"></div>
+
+  <div class="gallery-grid">
+    <div class="g-item g-tall"><img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=900&q=80" alt="Fresh fade haircut"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1521590832167-7ae2ef02a1c4?auto=format&fit=crop&w=900&q=80" alt="Barber trimming a client"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80" alt="Haircut styling in the barbershop"></div>
+    <div class="g-item g-tall"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" alt="Short modern haircut"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Detailed beard and haircut"></div>
+    <div class="g-item"><img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" alt="Haircut finishing detail"></div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="reviews" id="reviews">
+  <p class="eyebrow center">Client Words</p>
+  <h2 class="section-title center">What They Say</h2>
+  <div class="stripe-rule center"></div>
+
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"Best fade I've had in this city, hands down. Marcus took his time and it showed."</p>
+      <span class="reviewer">— James O.</span>
+    </div>
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"The hot towel shave is worth it alone. Clean shop, friendly team, zero rush."</p>
+      <span class="reviewer">— Ahmed K.</span>
+    </div>
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"Took my son for his first real haircut and Jayden made it painless. We're regulars now."</p>
+      <span class="reviewer">— Priya S.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BOOKING / CONTACT ================= -->
+<section class="booking" id="booking">
+  <div class="booking-info">
+    <p class="eyebrow">Reserve Your Chair</p>
+    <h2 class="section-title">Book An Appointment</h2>
+    <div class="stripe-rule"></div>
+    <p>Fill in your details and preferred time — our front desk will confirm within a few hours. Prefer to talk it through? Give us a call.</p>
+
+    <ul class="contact-list">
+      <li><strong>Address</strong><span>24 Liberty Street, Downtown</span></li>
+      <li><strong>Phone</strong><span>+1 (555) 019-4482</span></li>
+      <li><strong>Hours</strong><span>Mon–Sat, 9:00 AM – 8:00 PM</span></li>
+      <li><strong>Email</strong><span>hello@elitecutz.demo</span></li>
+    </ul>
+
+    <div class="socials">
+      <a href="#" aria-label="Instagram">IG</a>
+      <a href="#" aria-label="Facebook">FB</a>
+      <a href="#" aria-label="WhatsApp">WA</a>
+    </div>
+  </div>
+
+  <form class="booking-form" id="bookingForm">
+    <div class="form-row">
+      <div class="field">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="John Smith" required>
+      </div>
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="+1 (555) 000-0000" required>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="field">
+        <label for="service">Service</label>
+        <select id="service" required>
+          <option value="" disabled selected>Select a service</option>
+          <option>Classic Haircut</option>
+          <option>Skin Fade + Beard</option>
+          <option>Hot Towel Shave</option>
+          <option>Beard Sculpting</option>
+          <option>Kids Cut</option>
+          <option>Hair Tattoo / Design</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="notes">Notes (optional)</label>
+      <textarea id="notes" rows="3" placeholder="Preferred barber, time, or anything we should know"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary full">Request Appointment</button>
+    <p class="form-note" id="formNote"></p>
+  </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <a href="#home" class="logo">ELITE <span>CUTZ</span></a>
+    <nav class="footer-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#barbers">Barbers</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#booking">Book Now</a>
+    </nav>
+  </div>
+  <div class="footer-stripe" aria-hidden="true"></div>
+  <div class="footer-bottom">
+    <p>© 2026 Elite Cutz Barbershop. All rights reserved. This is a demo website — all content is for illustration only.</p>
+    <p class="dev-credit">Developed by <span>Daud</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
